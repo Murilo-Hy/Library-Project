@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Library Project</title>
+  </head>
+  <body>
+    <main>
+      <article id="main">
+        MY LIBRARY
+        <div class="library">
+          <!-- Divs sendo Criadas pelo JavaScript (Class: 'book')-->
+        </div>
+        <button class="create-btn btn">Criar novo Livro</button>
+      </article>
+    </main>
+
+    <div class="sobreposição-central none">
+      <div class="conteudo-modal">
+        <input
+          type="text"
+          class="title input"
+          placeholder="Digite o Nome do Livro"
+        />
+        <input
+          type="text"
+          class="author input"
+          placeholder="Digite o Nome do Autor(a)"
+        />
+        <input
+          type="number"
+          class="pages input"
+          placeholder="Digite a Quantidade de Paginas do Livro"
+        />
+        <label> Você já leu este livro?</label>
+        <label class="radio">
+          <input type="radio" name="read" value="Sim" />
+          Sim
+        </label>
+        <label class="radio">
+          <input type="radio" name="read" value="Não" />
+          Não
+        </label>
+        <button class="add-btn btn">Adicionar Livro</button>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
